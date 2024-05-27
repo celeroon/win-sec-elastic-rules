@@ -1,0 +1,8 @@
+# Ignore winlogbeat directory
+winlogbeat/
+
+# Ignore winlogbeat.yml file
+winlogbeat-evtx.yml
+
+POC_RULES.ndjson
+PROD_RULES.ndjson

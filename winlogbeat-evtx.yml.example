@@ -1,0 +1,13 @@
+winlogbeat.event_logs:
+  - name: ${EVTX_FILE} 
+    no_more_events: stop
+
+winlogbeat.shutdown_timeout: 1s
+winlogbeat.registry_file: "${CWD}/winlogbeat/evtx-registry.yml"
+
+output.elasticsearch:
+  enabled: true
+  hosts: ['https://localhost:9200']
+  ssl.verification_mode: none
+  username: "elastic"
+  password: "PASSWORD"
