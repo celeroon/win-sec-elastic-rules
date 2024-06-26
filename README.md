@@ -91,7 +91,8 @@ To set up Winlogbeat, follow these steps:
     - [User Account Logon Failure (0XC0000192)](/logs/Account-Logon/User-Account-Logon-Failure/0xC0000192/0xC0000192.md)
     - [User Account Logon Failure (0XC0000413)](/logs/Account-Logon/User-Account-Logon-Failure/0xC0000413/0xC0000413.md)
     - [User Account Logon Failure (Suspicious Process)](/logs/Account-Logon/User-Account-Logon-Failure/Suspicious-Process/Suspicious-Process.md)
-
 <!--    - [User Account Logon Failure (0xC0000234)]() -->
 <!--     - [User Account Logon Failure (Brute-Force)](/rules/windows/security/Account-Logon/Unsuccessful-User-Account-Logon/Unsuccessful-User-Account-Logon-Brute-Force/Unsuccessful-User-Account-Logon-Brute-Force.md) -->
-
+- User Accounts Management
+  - Successfully Created User Account
+    - [Successfully Created User Account (SAMAccountName Field Anomaly)](/logs/User-Accounts-Management/Successfully-Created-User-Account/SAMAccountName-Field-Anomaly/SAMAccountName-Field-Anomaly.md)
