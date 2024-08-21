@@ -8,6 +8,7 @@ Typical processes:
 * C:\Windows\System32\lsass.exe
 * C:\Windows\System32\svchost.exe
 * C:\Windows\System32\winlogon.exe
+* C:\Windows\System32\wininit.exe
 
 <div align="center">
     <img alt="User Account Logon Success (Suspicious Process)" src="/logs/Account-Logon/User-Account-Logon-Success/Suspicious-Process/img/Suspicious-Process.png" width="80%">
@@ -24,10 +25,16 @@ Typical processes:
 .\Winlogbeat-Bulk-Read.ps1 -Exe .\winlogbeat\winlogbeat.exe -Source ".\logs\Account-Logon\User-Account-Logon-Success\Suspicious-Process\evtx\*.evtx" -Config ".\winlogbeat-evtx.yml"
 ```
 
-Lucene query:
+Lucene query (test):
 
 ```
 event.code: "4624" AND NOT process.executable: "-" AND NOT process.executable: (/[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[sS][eE][rR][vV][iI][cC][eE][sS].[eE][xX][eE]/ OR /[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[lL][sS][aA][sS][sS].[eE][xX][eE]/ OR /[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[sS][vV][cC][hH][oO][sS][tT].[eE][xX][eE]/ OR /[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[wW][iI][nN][lL][oO][gG][oO][nN].[eE][xX][eE]/) OR NOT winlog.event_data.ProcessName: (/[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[sS][eE][rR][vV][iI][cC][eE][sS].[eE][xX][eE]/ OR /[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[lL][sS][aA][sS][sS].[eE][xX][eE]/ OR /[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[sS][vV][cC][hH][oO][sS][tT].[eE][xX][eE]/ OR /[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[wW][iI][nN][lL][oO][gG][oO][nN].[eE][xX][eE]/) AND NOT winlog.event_data.ProcessName: "-"
+```
+
+Lucene query (ECS):
+
+```
+event.code: "4624" AND NOT process.executable: "-" AND _exists_: process.executable AND NOT process.executable: (/[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[sS][eE][rR][vV][iI][cC][eE][sS].[eE][xX][eE]/ OR /[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[lL][sS][aA][sS][sS].[eE][xX][eE]/ OR /[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[sS][vV][cC][hH][oO][sS][tT].[eE][xX][eE]/ OR /[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[wW][iI][nN][lL][oO][gG][oO][nN].[eE][xX][eE]/ OR /[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[wW][iI][nN][iI][nN][iI][tT].[eE][xX][eE]/)
 ```
 
 [XML File](/logs/Account-Logon/User-Account-Logon-Success/Suspicious-Process/xml/Suspicious-Process.xml)
