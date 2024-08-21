@@ -21,10 +21,16 @@ As per the [Security Monitoring Recommendations](https://learn.microsoft.com/en-
 .\Winlogbeat-Bulk-Read.ps1 -Exe .\winlogbeat\winlogbeat.exe -Source ".\logs\Account-Logon\User-Account-Logon-Success\Suspicious-Source-Address\evtx\*.evtx" -Config ".\winlogbeat-evtx.yml"
 ```
 
-Lucene query:
+Lucene query (test):
 
 ```
-event.code: "4624" AND NOT source.ip: ([10.0.0.0 TO 10.255.255.255] OR [fe80:: TO febf:ffff:ffff:ffff:ffff:ffff:ffff:ffff]) AND NOT source.ip: ("::1" OR "127.0.0.1") OR NOT winlog.event_data.IpAddress: ([10.0.0.0 TO 10.255.255.255] OR [fe80:: TO febf:ffff:ffff:ffff:ffff:ffff:ffff:ffff]) AND NOT winlog.event_data.IpAddress: ("::1" OR "127.0.0.1") AND NOT winlog.event_data.IpAddress: "-"
+event.code: "4624" AND NOT source.ip: ([10.0.0.0 TO 10.255.255.255] OR [169.254.0.0 TO 169.254.255.255] OR [fe80:: TO febf:ffff:ffff:ffff:ffff:ffff:ffff:ffff]) AND NOT source.ip: ("::1" OR "127.0.0.1") OR NOT winlog.event_data.IpAddress: ([10.0.0.0 TO 10.255.255.255] OR [169.254.0.0 TO 169.254.255.255] OR [fe80:: TO febf:ffff:ffff:ffff:ffff:ffff:ffff:ffff]) AND NOT winlog.event_data.IpAddress: ("::1" OR "127.0.0.1") AND NOT winlog.event_data.IpAddress: "-"
+```
+
+Lucene query (ECS):
+
+```
+event.code: "4624" AND NOT source.ip: ([10.0.0.0 TO 10.255.255.255] OR [169.254.0.0 TO 169.254.255.255] OR [fe80:: TO febf:ffff:ffff:ffff:ffff:ffff:ffff:ffff]) AND NOT source.ip: ("::1" OR "127.0.0.1") AND NOT source.ip: "-"
 ```
 
 [XML File](/logs/Account-Logon/User-Account-Logon-Success/Suspicious-Source-Address/xml/Suspicious-Source-Address.xml)
