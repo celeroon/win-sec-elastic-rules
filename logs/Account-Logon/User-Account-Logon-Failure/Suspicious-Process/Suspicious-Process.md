@@ -24,6 +24,12 @@ Lucene query:
 event.code: 4625 AND NOT process.executable: "-" AND NOT process.executable: (/[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[sS][eE][rR][vV][iI][cC][eE][sS].[eE][xX][eE]/ OR /[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[lL][sS][aA][sS][sS].[eE][xX][eE]/ OR /[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[sS][vV][cC][hH][oO][sS][tT].[eE][xX][eE]/ OR /[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[wW][iI][nN][lL][oO][gG][oO][nN].[eE][xX][eE]/) OR NOT winlog.event_data.ProcessName: (/[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[sS][eE][rR][vV][iI][cC][eE][sS].[eE][xX][eE]/ OR /[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[lL][sS][aA][sS][sS].[eE][xX][eE]/ OR /[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[sS][vV][cC][hH][oO][sS][tT].[eE][xX][eE]/ OR /[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[wW][iI][nN][lL][oO][gG][oO][nN].[eE][xX][eE]/) AND NOT winlog.event_data.ProcessName: "-"
 ```
 
+Lucene query (ECS):
+
+```
+event.code: 4625 AND NOT process.executable: "-" AND _exists_:process.executable AND NOT process.executable: (/[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[sS][eE][rR][vV][iI][cC][eE][sS].[eE][xX][eE]/ OR /[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[lL][sS][aA][sS][sS].[eE][xX][eE]/ OR /[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[sS][vV][cC][hH][oO][sS][tT].[eE][xX][eE]/ OR /[cC]:\\[wW][iI][nN][dD][oO][wW][sS]\\[sS][yY][sS][tT][eE][mM]32\\[wW][iI][nN][lL][oO][gG][oO][nN].[eE][xX][eE]/)
+```
+
 [XML File](/logs/Account-Logon/User-Account-Logon-Failure/Suspicious-ProcessName-Path/xml/Suspicious-Process.xml)
 
 [NDJSON Detection Rule](/logs/Account-Logon/User-Account-Logon-Failure/Suspicious-Process/ndjson/POC-4625-Suspicious-Process.ndjson)
