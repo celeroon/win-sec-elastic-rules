@@ -26,4 +26,4 @@ event.code: 4720 AND NOT winlog.event_data.LogonHours: ("%%1797" OR "%%1793")
 
 [XML File](/logs/User-Accounts-Management/Successfully-Created-User-Account/LogonHours-Field-Anomaly/xml/LogonHours-Field-Anomaly.xml)
 
-[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/LogonHours-Field-Anomaly/ndjson/LogonHours-Field-Anomaly.ndjson)
+[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/LogonHours-Field-Anomaly/ndjson/POC-LogonHours-Field-Anomaly.ndjson)

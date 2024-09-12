@@ -26,4 +26,4 @@ event.code: 4720 AND winlog.event_data.UserAccountControl: *%%2089*
 
 [XML File](/logs/User-Accounts-Management/Successfully-Created-User-Account/Dont-Expire-Password-Enabled/xml/Dont-Expire-Password-Enabled.xml)
 
-[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/Dont-Expire-Password-Enabled/ndjson/Dont-Expire-Password-Enabled.ndjson)
+[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/Dont-Expire-Password-Enabled/ndjson/POC-Dont-Expire-Password-Enabled.ndjson)

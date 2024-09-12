@@ -26,4 +26,4 @@ event.code: 4720 AND NOT winlog.event_data.OldUacValue: "0x0"
 
 [XML File](/logs/User-Accounts-Management/Successfully-Created-User-Account/OldUacValue-Field-Anomaly/xml/OldUacValue-Field-Anomaly.xml)
 
-[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/OldUacValue-Field-Anomaly/ndjson/OldUacValue-Field-Anomaly.ndjson)
+[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/OldUacValue-Field-Anomaly/ndjson/POC-OldUacValue-Field-Anomaly.ndjson)

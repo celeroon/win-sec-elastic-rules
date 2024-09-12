@@ -26,4 +26,4 @@ event.code: 4720 AND NOT winlog.event_data.SubjectUserName: ("Administrator")
 
 [XML File](/logs/User-Accounts-Management/Successfully-Created-User-Account/By-non-Admin-Account/xml/By-non-Admin-Account.xml)
 
-[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/By-non-Admin-Account/ndjson/By-non-Admin-Account.ndjson)
+[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/By-non-Admin-Account/ndjson/POC-By-non-Admin-Account.ndjson)

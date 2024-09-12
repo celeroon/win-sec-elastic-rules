@@ -27,4 +27,4 @@ event.code: 4720 AND winlog.event_data.UserAccountControl: *%%2092*
 
 [XML File](/logs/User-Accounts-Management/Successfully-Created-User-Account/Smartcard-Required-Enabled/xml/Smartcard-Required-Enabled.xml)
 
-[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/Smartcard-Required-Enabled/ndjson/Smartcard-Required-Enabled.ndjson)
+[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/Smartcard-Required-Enabled/ndjson/POC-Smartcard-Required-Enabled.ndjson)

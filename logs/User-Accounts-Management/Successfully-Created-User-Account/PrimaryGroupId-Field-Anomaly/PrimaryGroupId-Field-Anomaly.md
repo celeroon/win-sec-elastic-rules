@@ -26,4 +26,4 @@ event.code: 4720 AND NOT winlog.event_data.PrimaryGroupId: 513
 
 [XML File](/logs/User-Accounts-Management/Successfully-Created-User-Account/PrimaryGroupId-Field-Anomaly/xml/PrimaryGroupId-Field-Anomaly.xml)
 
-[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/PrimaryGroupId-Field-Anomaly/ndjson/PrimaryGroupId-Field-Anomaly.ndjson)
+[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/PrimaryGroupId-Field-Anomaly/ndjson/POC-PrimaryGroupId-Field-Anomaly.ndjson)

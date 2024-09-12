@@ -26,4 +26,4 @@ event.code: 4720 AND winlog.event_data.UserAccountControl: *%%2052*
 
 [XML File](/logs/User-Accounts-Management/Successfully-Created-User-Account/Normal-Account-Disabled/xml/Normal-Account-Disabled.xml)
 
-[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/Normal-Account-Disabled/ndjson/Normal-Account-Disabled.ndjson)
+[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/Normal-Account-Disabled/ndjson/POC-Normal-Account-Disabled.ndjson)

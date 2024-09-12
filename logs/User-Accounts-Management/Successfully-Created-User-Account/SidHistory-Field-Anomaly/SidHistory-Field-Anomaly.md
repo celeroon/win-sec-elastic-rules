@@ -26,4 +26,4 @@ event.code: 4720 AND NOT winlog.event_data.SidHistory: "-"
 
 [XML File](/logs/User-Accounts-Management/Successfully-Created-User-Account/SidHistory-Field-Anomaly/xml/SidHistory-Field-Anomaly.xml)
 
-[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/SidHistory-Field-Anomaly/ndjson/SidHistory-Field-Anomaly.ndjson)
+[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/SidHistory-Field-Anomaly/ndjson/POC-SidHistory-Field-Anomaly.ndjson)

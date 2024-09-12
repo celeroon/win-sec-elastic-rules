@@ -26,4 +26,4 @@ event.code: 4720 AND winlog.event_data.UserAccountControl: *%%2096*
 
 [XML File](/logs/User-Accounts-Management/Successfully-Created-User-Account/Dont-Require-Preauth-Enabled/xml/Dont-Require-Preauth-Enabled.xml)
 
-[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/Dont-Require-Preauth-Enabled/ndjson/Dont-Require-Preauth-Enabled.ndjson)
+[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/Dont-Require-Preauth-Enabled/ndjson/POC-Dont-Require-Preauth-Enabled.ndjson)

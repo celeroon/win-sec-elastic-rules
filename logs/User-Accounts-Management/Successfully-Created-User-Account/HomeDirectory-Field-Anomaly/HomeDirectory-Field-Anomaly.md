@@ -26,4 +26,4 @@ event.code: "4720" AND NOT winlog.event_data.HomeDirectory: ("-" OR "%%1793")
 
 [XML File](/logs/User-Accounts-Management/Successfully-Created-User-Account/HomeDirectory-Field-Anomaly/xml/HomeDirectory-Field-Anomaly.xml)
 
-[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/HomeDirectory-Field-Anomaly/ndjson/HomeDirectory-Field-Anomaly.ndjson)
+[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/HomeDirectory-Field-Anomaly/ndjson/POC-HomeDirectory-Field-Anomaly.ndjson)

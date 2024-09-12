@@ -26,4 +26,4 @@ event.code: 4720 AND winlog.event_data.UserAccountControl: *%%2098*
 
 [XML File](/logs/User-Accounts-Management/Successfully-Created-User-Account/Trusted-To-Authenticate-For-Delegation-Enabled/xml/Trusted-To-Authenticate-For-Delegation-Enabled.xml)
 
-[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/Trusted-To-Authenticate-For-Delegation-Enabled/ndjson/Trusted-To-Authenticate-For-Delegation-Enabled.ndjson)
+[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/Trusted-To-Authenticate-For-Delegation-Enabled/ndjson/POC-Trusted-To-Authenticate-For-Delegation-Enabled.ndjson)

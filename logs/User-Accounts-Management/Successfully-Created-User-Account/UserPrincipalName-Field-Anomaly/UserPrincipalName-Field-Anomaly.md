@@ -27,4 +27,4 @@ event.code: "4720" AND winlog.event_data.UserPrincipalName: ("-" OR "" OR "%%179
 
 [XML File](/logs/User-Accounts-Management/Successfully-Created-User-Account/UserPrincipalName-Field-Anomaly/xml/UserPrincipalName-Field-Anomaly.xml)
 
-[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/UserPrincipalName-Field-Anomaly/ndjson/UserPrincipalName-Field-Anomaly.ndjson)
+[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/UserPrincipalName-Field-Anomaly/ndjson/POC-UserPrincipalName-Field-Anomaly.ndjson)

@@ -26,4 +26,4 @@ event.code: "4720" AND NOT winlog.event_data.ScriptPath: ("-" OR "%%1793")
 
 [XML File](/logs/User-Accounts-Management/Successfully-Created-User-Account/ScriptPath-Field-Anomaly/xml/ScriptPath-Field-Anomaly.xml)
 
-[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/ScriptPath-Field-Anomaly/ndjson/ScriptPath-Field-Anomaly.ndjson)
+[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/ScriptPath-Field-Anomaly/ndjson/POC-ScriptPath-Field-Anomaly.ndjson)

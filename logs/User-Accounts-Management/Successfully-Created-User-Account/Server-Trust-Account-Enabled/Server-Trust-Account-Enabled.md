@@ -26,4 +26,4 @@ event.code: 4720 AND winlog.event_data.UserAccountControl: *%%2088*
 
 [XML File](/logs/User-Accounts-Management/Successfully-Created-User-Account/Server-Trust-Account-Enabled/xml/Server-Trust-Account-Enabled.xml)
 
-[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/Server-Trust-Account-Enabled/ndjson/Server-Trust-Account-Enabled.ndjson)
+[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/Server-Trust-Account-Enabled/ndjson/POC-Server-Trust-Account-Enabled.ndjson)

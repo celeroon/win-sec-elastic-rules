@@ -26,4 +26,4 @@ event.code: 4720 AND NOT winlog.event_data.AllowedToDelegateTo: ("-" OR "%%1793"
 
 [XML File](/logs/User-Accounts-Management/Successfully-Created-User-Account/AllowedToDelegateTo-Field-Anomaly/xml/AllowedToDelegateTo-Field-Anomal.xml)
 
-[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/AllowedToDelegateTo-Field-Anomaly/ndjson/AllowedToDelegateTo-Field-Anomal.ndjson)
+[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/AllowedToDelegateTo-Field-Anomaly/ndjson/POC-AllowedToDelegateTo-Field-Anomal.ndjson)

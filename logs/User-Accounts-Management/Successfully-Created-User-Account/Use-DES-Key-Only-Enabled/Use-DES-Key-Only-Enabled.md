@@ -26,4 +26,4 @@ event.code: 4720 AND winlog.event_data.UserAccountControl: *%%2095*
 
 [XML File](/logs/User-Accounts-Management/Successfully-Created-User-Account/Use-DES-Key-Only-Enabled/xml/Use-DES-Key-Only-Enabled.xml)
 
-[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/Use-DES-Key-Only-Enabled/ndjson/Use-DES-Key-Only-Enabled.ndjson)
+[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/Use-DES-Key-Only-Enabled/ndjson/POC-Use-DES-Key-Only-Enabled.ndjson)

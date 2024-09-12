@@ -26,4 +26,4 @@ event.code: 4720 AND NOT winlog.event_data.AccountExpires: ("-" OR "%%1794")
 
 [XML File](/logs/User-Accounts-Management/Successfully-Created-User-Account/AccountExpires-Field-Anomaly/xml/AccountExpires-Field-Anomaly.xml)
 
-[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/AccountExpires-Field-Anomaly/ndjson/AccountExpires-Field-Anomaly.ndjson)
+[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/AccountExpires-Field-Anomaly/ndjson/POC-AccountExpires-Field-Anomaly.ndjson)

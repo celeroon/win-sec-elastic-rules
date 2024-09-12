@@ -26,4 +26,4 @@ event.code: 4720 AND winlog.event_data.UserAccountControl: *%%2091*
 
 [XML File](/logs/User-Accounts-Management/Successfully-Created-User-Account/Encrypted-Text-Password-Allowed-Enabled/xml/Encrypted-Text-Password-Allowed-Enabled.xml)
 
-[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/Encrypted-Text-Password-Allowed-Enabled/ndjson/Encrypted-Text-Password-Allowed-Enabled.ndjson)
+[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/Encrypted-Text-Password-Allowed-Enabled/ndjson/POC-Encrypted-Text-Password-Allowed-Enabled.ndjson)

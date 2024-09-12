@@ -26,4 +26,4 @@ event.code: 4720 AND winlog.event_data.UserAccountControl: *%%2094*
 
 [XML File](/logs/User-Accounts-Management/Successfully-Created-User-Account/Not-Delegated-Enabled/xml/Not-Delegated-Enabled.xml)
 
-[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/Not-Delegated-Enabled/ndjson/Not-Delegated-Enabled.ndjson)
+[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/Not-Delegated-Enabled/ndjson/POC-Not-Delegated-Enabled.ndjson)

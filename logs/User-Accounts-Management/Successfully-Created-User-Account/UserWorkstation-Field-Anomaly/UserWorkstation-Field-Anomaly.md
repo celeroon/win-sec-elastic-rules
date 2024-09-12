@@ -26,4 +26,4 @@ event.code: "4720" AND NOT winlog.event_data.UserWorkstations: ("-" OR "" OR "%%
 
 [XML File](/logs/User-Accounts-Management/Successfully-Created-User-Account/UserWorkstation-Field-Anomaly/xml/UserWorkstation-Field-Anomaly.xml)
 
-[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/UserWorkstation-Field-Anomaly/ndjson/UserWorkstation-Field-Anomaly.ndjson)
+[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/UserWorkstation-Field-Anomaly/ndjson/POC-UserWorkstation-Field-Anomaly.ndjson)

@@ -26,4 +26,4 @@ event.code: "4720" AND NOT winlog.event_data.ProfilePath: ("-" OR "%%1793")
 
 [XML File](/logs/User-Accounts-Management/Successfully-Created-User-Account/ProfilePath-Field-Anomaly/xml/ProfilePath-Field-Anomaly.xml)
 
-[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/ProfilePath-Field-Anomaly/ndjson/ProfilePath-Field-Anomaly.ndjson)
+[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/ProfilePath-Field-Anomaly/ndjson/POC-ProfilePath-Field-Anomaly.ndjson)

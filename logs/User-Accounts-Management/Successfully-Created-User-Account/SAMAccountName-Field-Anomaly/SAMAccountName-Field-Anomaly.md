@@ -27,4 +27,4 @@ event.code: "4720" AND winlog.event_data.SamAccountName: ("-" OR "" OR "%%1793")
 
 [XML File](/logs/User-Accounts-Management/Successfully-Created-User-Account/SAMAccountName-Field-Anomaly/xml/SAMAccountName-Field-Anomaly.xml)
 
-[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/SAMAccountName-Field-Anomaly/ndjson/SAMAccountName-Field-Anomaly.ndjson)
+[NDJSON Detection Rule](/logs/User-Accounts-Management/Successfully-Created-User-Account/SAMAccountName-Field-Anomaly/ndjson/POC-SAMAccountName-Field-Anomaly.ndjson)
