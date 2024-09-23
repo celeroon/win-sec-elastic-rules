@@ -95,6 +95,7 @@ To set up Winlogbeat, follow these steps:
 <!--     - [User Account Logon Failure (Brute-Force)](/rules/windows/security/Account-Logon/Unsuccessful-User-Account-Logon/Unsuccessful-User-Account-Logon-Brute-Force/Unsuccessful-User-Account-Logon-Brute-Force.md) -->
 - User Accounts Management
   - Successfully Created User Account
+    <!-- - [Successfully Created User Account (Out Of Business Hours)] -->
     - [Successfully Created User Account (SAMAccountName Field Anomaly)](/logs/User-Accounts-Management/Successfully-Created-User-Account/SAMAccountName-Field-Anomaly/SAMAccountName-Field-Anomaly.md)
     - [Successfully Created User Account (UserPrincipalName Field Anomaly)](/logs/User-Accounts-Management/Successfully-Created-User-Account/UserPrincipalName-Field-Anomaly/UserPrincipalName-Field-Anomaly.md)
     - [Successfully Created User Account (HomeDirectory Field Anomaly)](/logs/User-Accounts-Management/Successfully-Created-User-Account/HomeDirectory-Field-Anomaly/HomeDirectory-Field-Anomaly.md)
