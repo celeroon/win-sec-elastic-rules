@@ -181,3 +181,41 @@ To set up Winlogbeat, follow these steps:
     - [Modifications to User Account (non-Admin Account)](/logs/User-Accounts-Management/Modifications-to-User-Account/non-Admin-Account/non-Admin-Account.md)
   - [User Account Name Modification](/logs/User-Accounts-Management/User-Account-Name-Modification/User-Account-Name-Modification.md)
   - [Validation of Blank Password Presence](/logs/User-Accounts-Management/Validation-of-Blank-Password-Presence/Validation-of-Blank-Password-Presence.md)
+- Security Group Management
+  - Successfully Created Security Group
+    - [Successfully Created Security Group (Out Of Business Hours)](/logs/Security-Group-Management/Successfully-Created-Security-Group/Out-Of-Business-Hours/Out-Of-Business-Hours.md)
+    - [Successfully Created Security Group (non-Admin Account)](/logs/Security-Group-Management/Successfully-Created-Security-Group/non-Admin-Account/non-Admin-Account.md)
+  - Failed to Create Security Group
+    - [Failed to Create Security Group (Access Denied)](/logs/Security-Group-Management/Failed-to-Create-Security-Group/Access-Denied/Access-Denied.md)
+  - Successfully Deleted Security Group
+    - [Successfully Deleted Security Group (Out Of Business Hours)](/logs/Security-Group-Management/Successfully-Deleted-Security-Group/Out-Of-Business-Hours/Out-Of-Business-Hours.md)
+    - [Successfully Deleted Security Group (non-Admin Account)](/logs/Security-Group-Management/Successfully-Deleted-Security-Group/non-Admin-Account/non-Admin-Account.md)
+  - Failed to Delete Security Group
+    - [Failed to Delete Security Group (Access Denied)](/logs/Security-Group-Management/Failed-to-Delete-Security-Group/Access-Denied/Access-Denied.md)
+  - Successfully Modified Security Group
+    - [Successfully Modified Security Group (Out Of Business Hours)](/logs/Security-Group-Management/Successfully-Modified-Security-Group/Out-Of-Business-Hours/Out-Of-Business-Hours.md)
+    - [Successfully Modified Security Group (non-Admin Account)](/logs/Security-Group-Management/Successfully-Modified-Security-Group/non-Admin-Account/non-Admin-Account.md)
+    - [Successfully Modified Security Group (Critical Groups)](/logs/Security-Group-Management/Successfully-Modified-Security-Group/Critical-Groups/Critical-Groups.md)
+  - Failed to Modify Security Group
+    - [Failed to Modify Security Group (Access Denied)](/logs/Security-Group-Management/Failed-to-Modify-Security-Group/Access-Denied/Access-Denied.md)
+  - Successfully Added to Security Group Membership
+    - [Successfully Added to Security Group Membership (Out Of Business Hours)](/logs/Security-Group-Management/Successfully-Added-to-Security-Group-Membership/Out-Of-Business-Hours/Out-Of-Business-Hours.md)
+    - [Successfully Added to Security Group Membership (Critical Group)](/logs/Security-Group-Management/Successfully-Added-to-Security-Group-Membership/Critical-Group/Critical-Group.md)
+    - [Successfully Added to Security Group Membership (Backup Operators)](/logs/Security-Group-Management/Successfully-Added-to-Security-Group-Membership/Backup-Operators/Backup-Operators.md)
+    - [Successfully Added to Security Group Membership (Network Configuration Operators)](/logs/Security-Group-Management/Successfully-Added-to-Security-Group-Membership/Network-Configuration-Operators/Network-Configuration-Operators.md)
+    - [Successfully Added to Security Group Membership (Remote Desktop Users)](/logs/Security-Group-Management/Successfully-Added-to-Security-Group-Membership/Remote-Desktop-Users/Remote-Desktop-Users.md)
+    - [Successfully Added to Security Group Membership (Remote Management Users)](/logs/Security-Group-Management/Successfully-Added-to-Security-Group-Membership/Remote-Management-Users/Remote-Management-Users.md)
+    - [Successfully Added to Security Group Membership (non-Admin Account)](/logs/Security-Group-Management/Successfully-Added-to-Security-Group-Membership/non-Admin-Account/non-Admin-Account.md)
+  - Successfully Removed from Security Group Membership
+    - [Successfully Removed from Security Group Membership (Out Of Business Hours)](/logs/Security-Group-Management/Successfully-Removed-from-Security-Group-Membership/Out-Of-Business-Hours/Out-Of-Business-Hours.md)
+    - [Successfully Removed from Security Group Membership (Critical Group)](/logs/Security-Group-Management/Successfully-Removed-from-Security-Group-Membership/Critical-Group/Critical-Group.md)
+    - [Successfully Removed from Security Group Membership (Backup Operators)](/logs/Security-Group-Management/Successfully-Removed-from-Security-Group-Membership/Backup-Operators/Backup-Operators.md)
+    - [Successfully Removed from Security Group Membership (Network Configuration Operators)](/logs/Security-Group-Management/Successfully-Removed-from-Security-Group-Membership/Network-Configuration-Operators/Network-Configuration-Operators.md)
+    - [Successfully Removed from Security Group Membership (Remote Desktop Users)](/logs/Security-Group-Management/Successfully-Removed-from-Security-Group-Membership/Remote-Desktop-Users/Remote-Desktop-Users.md)
+    - [Successfully Removed from Security Group Membership (Remote Management Users)](/logs/Security-Group-Management/Successfully-Removed-from-Security-Group-Membership/Remote-Management-Users/Remote-Management-Users.md)
+    - [Successfully Removed from Security Group Membership (non-Admin Account)](/logs/Security-Group-Management/Successfully-Removed-from-Security-Group-Membership/non-Admin-Account/non-Admin-Account.md)
+  - [Denied Access to Security Group Membership](/logs/Security-Group-Management/Denied-Access-to-Security-Group-Membership/Access-Denied/Access-Denied.md)
+  - Listing of Security Group Memberships
+    - [Listing of Security Group Memberships (Out Of Business Hours)](/logs/Security-Group-Management/Listing-of-Security-Group-Memberships/Out-Of-Business-Hours/Out-Of-Business-Hours.md)
+    - [Listing of Security Group Memberships (Critical Groups)](/logs/Security-Group-Management/Listing-of-Security-Group-Memberships/Critical-Groups/Critical-Groups.md)
+    - [Listing of Security Group Memberships (Suspicious ProcessName/Path)](/logs/Security-Group-Management/Listing-of-Security-Group-Memberships/Suspicious-ProcessName-Path/Suspicious-ProcessName-Path.md)
