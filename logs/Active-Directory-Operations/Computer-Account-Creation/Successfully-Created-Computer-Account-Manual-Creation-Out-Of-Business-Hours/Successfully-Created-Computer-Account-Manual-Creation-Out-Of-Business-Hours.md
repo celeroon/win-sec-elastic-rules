@@ -1,0 +1,1 @@
+event.code: 4741 AND winlog.keywords: "Audit Success" AND winlog.event_data.UserAccountControl: (*%%2080* AND *%%2082*) AND winlog.event_data.PasswordLastSet: "%%1794" AND winlog.event_data.DnsHostName: "-" AND winlog.event_data.ServicePrincipalNames: "-" AND (hour_of_day: [* TO 7] OR hour_of_day: [17 TO *])

@@ -1,0 +1,1 @@
+event.code: 4739 AND winlog.keywords: "Audit Success" AND winlog.event_data.DomainPolicyChanged: ("Account Lockout Policy" OR "Password Policy" OR "Network security: Force logoff when logon hours expire")
