@@ -1,0 +1,1 @@
+event.code: 4656 AND winlog.keywords: "Audit Failure" AND winlog.event_data.ObjectServer: "Security" AND winlog.event_data.ObjectType: "Key" AND winlog.event_data.AccessList: *%%4434* AND NOT process.executable: ("regedit.exe" OR "whitelist_processes_that_can_create_key") AND NOT process.executable: ("C:\\Windows\\*" OR "*System32*" OR "whitelisted_path")

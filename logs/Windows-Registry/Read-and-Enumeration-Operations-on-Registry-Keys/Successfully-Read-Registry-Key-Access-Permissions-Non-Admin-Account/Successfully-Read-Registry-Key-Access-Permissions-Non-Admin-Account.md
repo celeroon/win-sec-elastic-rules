@@ -1,0 +1,1 @@
+event.code: 4663 AND winlog.keywords: "Audit Success" AND winlog.event_data.ObjectServer: "Security" AND winlog.event_data.ObjectType: "Key" AND winlog.event_data.AccessList: *%%1538* AND NOT winlog.event_data.SubjectUserName: ("Administrator" OR "ADMIN_LIST")

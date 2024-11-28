@@ -1,0 +1,1 @@
+event.code: 4663 AND winlog.keywords: "Audit Success" AND winlog.event_data.ObjectServer: "Security" AND winlog.event_data.ObjectType: "Key" AND winlog.event_data.AccessList: *%%1537* AND (hour_of_day: [* TO 7] OR hour_of_day: [17 TO *])
