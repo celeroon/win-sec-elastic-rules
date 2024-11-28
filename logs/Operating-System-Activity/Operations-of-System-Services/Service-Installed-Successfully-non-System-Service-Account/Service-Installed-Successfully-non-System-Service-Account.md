@@ -1,0 +1,1 @@
+event.code: 4697 AND NOT winlog.event_data.ServiceAccount: ("LocalSystem" OR "NT AUTHORITY\LocalService" OR "LocalService" OR "NT AUTHORITY\NetworkService" OR "NetworkService" OR "localSystem" OR "localService" OR "networkService") AND NOT host.name: ("CRITICAL" OR "HOSTS")

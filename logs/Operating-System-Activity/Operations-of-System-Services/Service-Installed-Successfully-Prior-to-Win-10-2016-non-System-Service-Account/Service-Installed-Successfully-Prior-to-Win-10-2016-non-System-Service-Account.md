@@ -1,0 +1,1 @@
+event.code: 7045 AND NOT host.name: ("CRITICAL" OR "HOSTS") AND NOT winlog.event_data.AccountName: ("LocalSystem" OR "NT AUTHORITY\LocalService" OR "LocalService" OR "NT AUTHORITY\NetworkService" OR "NetworkService" OR "localSystem" OR "localService" OR "networkService")

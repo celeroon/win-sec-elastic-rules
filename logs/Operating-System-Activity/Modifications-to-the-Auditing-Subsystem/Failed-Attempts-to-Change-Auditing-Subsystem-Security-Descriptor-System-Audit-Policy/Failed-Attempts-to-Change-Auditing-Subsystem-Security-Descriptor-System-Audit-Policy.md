@@ -1,0 +1,1 @@
+event.code: 4674 AND winlog.keywords: "Audit Failure" AND winlog.event_data.ObjectServer: "LSA" AND winlog.event_data.PrivilegeList: "SeSecurityPrivilege" AND NOT winlog.event_data.SubjectUserSid: ("S-1-5-18" OR "S-1-5-19" OR "S-1-5-20")
